@@ -1,5 +1,5 @@
 import { MantineProvider as MantineProviderCore } from '@mantine/core'
-import { MantineProviderProps } from '@mantine/core'
+import type { MantineProviderProps } from '@mantine/core'
 
 // ----------------------------------------------------------------------
 

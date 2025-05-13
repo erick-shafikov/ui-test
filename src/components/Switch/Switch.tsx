@@ -1,8 +1,8 @@
 import { Switch as SwitchBase } from '@mantine/core'
-import classes from './Switch.module.css'
-import textClassNames from '../../styles/typography.module.css'
+import classes from '@/components/Switch/Switch.module.css'
+import textClassNames from '@/styles/typography.module.css'
 import clsx from 'clsx'
-import { CAPTION_L_MEDIUM_FONT_VARIANT } from '../../constants/font-variants'
+import { CAPTION_L_MEDIUM_FONT_VARIANT } from '@/constants/font-variants'
 
 // ----------------------------------------------------------------------
 

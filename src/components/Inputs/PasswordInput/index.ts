@@ -1,1 +1,1 @@
-export { PasswordInput } from './PasswordInput'
+export { PasswordInput } from '@/components/Inputs/PasswordInput/PasswordInput'

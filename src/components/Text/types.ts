@@ -1,5 +1,5 @@
-import { FontVariants as FontVariantsConstants } from '../../constants/font-variants'
-import { TextProps as TextBaseProps } from '@mantine/core'
+import { FontVariants as FontVariantsConstants } from '@/constants/font-variants'
+import type { TextProps as TextBaseProps } from '@mantine/core'
 
 // ----------------------------------------------------------------------
 

@@ -1,10 +1,10 @@
 import { createPolymorphicComponent, Button as MantineButton } from '@mantine/core'
-import { ButtonProps as BaseButtonProps } from '@mantine/core'
+import type { ButtonProps as BaseButtonProps } from '@mantine/core'
 import '@mantine/core/styles/UnstyledButton.css'
 import '@mantine/core/styles/Button.css'
-import classNames from './Button.module.css'
+import classNames from '@/components/Button/Button.module.css'
 import { forwardRef } from 'react'
-import { ExtendedButtonVariant } from './types'
+import { ExtendedButtonVariant } from '@/components/Button/types'
 
 // ----------------------------------------------------------------------
 

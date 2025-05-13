@@ -1,1 +1,1 @@
-export { CvvInput } from './CvvInput'
+export { CvvInput } from '@/components/Inputs/CvvInput/CvvInput'
