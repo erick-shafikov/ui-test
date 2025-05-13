@@ -5,12 +5,10 @@
   "version": "0.0.0-development",
   "type": "module",
   "main": "src/main.js",
+  "types": "src/index.d.ts",
   "files": [
     "src"
   ],
-  "exports": "./dist/main.js",
-  "module": "./dist/main.js",
-  "types": "./dist/main.d.ts",
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "semantic-release": "semantic-release",
