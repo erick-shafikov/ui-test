@@ -1,0 +1,76 @@
+/* heading */
+.h6-bold {
+  font-family: var(--mantine-font-family);
+  font-weight: 700;
+  font-size: var(--mantine-font-size-h6);
+  line-height: var(--mantine-line-height-h6);
+  letter-spacing: var(--mantine-spacing-h6);
+}
+
+/* body */
+.body-l-bold {
+  font-family: var(--mantine-font-family);
+  font-weight: 700;
+  font-size: var(--mantine-font-size-body-l);
+  line-height: var(--mantine-line-height-body-l);
+  letter-spacing: var(--mantine-spacing-body-l);
+}
+
+.body-m-bold {
+  font-family: var(--mantine-font-family);
+  font-weight: 700;
+  font-size: var(--mantine-font-size-body-m);
+  line-height: var(--mantine-line-height-body-m);
+  letter-spacing: var(--mantine-spacing-body-m);
+}
+
+h2.body-m-medium,
+.body-m-medium {
+  font-family: var(--mantine-font-family);
+  font-weight: 500;
+  font-size: var(--mantine-font-size-body-m);
+  line-height: var(--mantine-line-height-body-m);
+  letter-spacing: var(--mantine-spacing-body-m);
+}
+
+.body-s-medium {
+  font-family: var(--mantine-font-family);
+  font-weight: 500;
+  font-size: var(--mantine-font-size-body-s);
+  line-height: var(--mantine-line-height-body-s);
+  letter-spacing: var(--mantine-spacing-body-s);
+}
+
+.body-s-regular {
+  font-family: var(--mantine-font-family);
+  font-weight: 400;
+  font-size: var(--mantine-font-size-body-s);
+  line-height: var(--mantine-line-height-body-s);
+  letter-spacing: var(--mantine-spacing-body-s);
+}
+
+/* caption */
+.caption-l-medium {
+  font-family: var(--mantine-font-family);
+  font-weight: 500;
+  font-size: var(--mantine-font-size-caption-l);
+  line-height: var(--mantine-line-height-caption-l);
+  letter-spacing: var(--mantine-spacing-caption-l);
+}
+
+p.caption-l-regular,
+.caption-l-regular {
+  font-family: var(--mantine-font-family);
+  font-weight: 400;
+  font-size: var(--mantine-font-size-caption-l);
+  line-height: var(--mantine-line-height-caption-l);
+  letter-spacing: var(--mantine-spacing-caption-l);
+}
+
+.caption-m-regular {
+  font-family: var(--mantine-font-family);
+  font-weight: 400;
+  font-size: var(--mantine-font-size-caption-m);
+  line-height: var(--mantine-line-height-caption-m);
+  letter-spacing: var(--mantine-spacing-caption-m);
+}

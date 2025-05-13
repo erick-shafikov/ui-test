@@ -1,0 +1,43 @@
+.root {
+  box-shadow: var(--mantine-shadows-lg);
+  width: 100%;
+}
+
+.content {
+  border-radius: var(--mantine-radius-xl);
+  border: 1px solid var(--mantine-color-border-action-normal-0);
+  white-space: pre-wrap;
+  padding: 0.5rem;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    width: 100%;
+    border-radius: var(--mantine-radius-xl) var(--mantine-radius-xl) 0 0;
+  }
+}
+
+.header {
+  padding-bottom: 0.25rem;
+}
+
+.inner {
+  @media (max-width: $mantine-breakpoint-xs) {
+    align-items: end;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+button.close {
+  position: absolute;
+  right: 0.25rem;
+  top: 0.4rem;
+  display: flex;
+  background-color: var(--mantine-color-background-button-tertiary-0);
+  border-radius: 50%;
+  --cb-size: 1.5rem;
+
+  & > svg {
+    color: var(--mantine-color-icon-base-secondary-0);
+    scale: 0.75;
+  }
+}

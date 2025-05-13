@@ -1,0 +1,50 @@
+.root {
+  box-shadow: var(--mantine-shadow-xs);
+  --button-height-sm: 2rem;
+  --button-height-md: 2.5rem;
+  --button-height-lg: 3rem;
+
+  --button-padding-x-sm: 1rem;
+  --button-padding-x-md: 1rem;
+  --button-padding-x-lg: 1rem;
+
+  font-family: var(--mantine-font-family);
+  font-weight: 500;
+  font-size: var(--mantine-font-size-caption-l);
+  line-height: var(--mantine-line-height-caption-l);
+  letter-spacing: var(--mantine-spacing-caption-l);
+
+  &[data-variant='primary'] {
+    background-color: var(--mantine-color-primary-0);
+    color: var(--mantine-color-white);
+  }
+
+  &[data-variant='secondary'] {
+    background-color: var(--mantine-color-secondary-0);
+    color: var(--mantine-color-primary);
+    border: 1px solid var(--mantine-color-border-action-normal-0);
+
+    .loader {
+      --button-color: var(--mantine-color-gray-5);
+    }
+  }
+
+  &[data-variant='tertiary'] {
+    background-color: var(--mantine-color-tertiary-0);
+    color: var(--mantine-color-primary);
+
+    .loader {
+      --button-color: var(--mantine-color-gray-5);
+    }
+  }
+
+  &:disabled,
+  &[data-disabled] {
+    background-color: var(--mantine-color-background-button-primary-disabled-0);
+    color: var(--mantine-color-text-base-quaternary-0);
+  }
+}
+
+.section {
+  --mantine-spacing-xs: 0.25rem;
+}

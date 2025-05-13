@@ -1,0 +1,28 @@
+.track {
+  --switch-height: 1rem;
+  --switch-width: rem(28px);
+  --switch-color: var(--mantine-color-background-toggle-active-0);
+
+  input:not(:checked) + & {
+    background-color: var(--mantine-color-background-toggle-default-0);
+  }
+}
+
+.description {
+  margin-top: -1px;
+  --label-offset-start: 1rem;
+  color: var(--mantine-color-primary);
+}
+
+.error {
+  color: var(--mantine-color-text-status-destructive-0);
+  padding-left: 0.25rem;
+  margin-top: 0;
+
+  &::before {
+    content: url('../../assets/error.svg');
+    position: relative;
+    top: 3px;
+    left: -0.25rem;
+  }
+}

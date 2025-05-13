@@ -1,0 +1,38 @@
+.input {
+  border-radius: var(--mantine-radius-xl);
+  border: 1px solid var(--mantine-color-border-action-normal-0);
+  box-shadow: var(--mantine-shadows-xs);
+  color: var(--mantine-color-text-base-tertiary-0);
+
+  --input-height: 2.5rem;
+
+  &[data-error] {
+    border: 1px solid var(--mantine-color-border-action-destructive-0);
+    margin-bottom: -0.125px;
+  }
+
+  [data-position='left'] ~ & {
+    --input-padding-inline-start: 2.5rem;
+  }
+}
+
+.section {
+  --right-section-end: 0.75rem;
+  --left-section-start: 0.25rem;
+}
+
+.label {
+  margin-bottom: 0.2rem;
+}
+
+.error {
+  color: var(--mantine-color-text-status-destructive-0);
+  padding-left: 0.25rem;
+
+  &::before {
+    content: url('../../assets/error.svg');
+    position: relative;
+    top: 3px;
+    left: -0.25rem;
+  }
+}

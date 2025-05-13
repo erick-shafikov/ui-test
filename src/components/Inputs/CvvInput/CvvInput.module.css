@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Password';
+  src:
+    local('Password'),
+    url(../../../assets/fonts/password.woff2) format('woff2');
+  font-weight: 100;
+}
+
+@layer kvell {
+  .input {
+    font-family: Password, monospace;
+    font-display: swap;
+  }
+}
