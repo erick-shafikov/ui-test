@@ -1,9 +1,9 @@
-import type { TextProps as TextBaseProps } from '@mantine/core'
+import { TextProps as TextBaseProps } from '@mantine/core'
 import { Text as TextBase } from '@mantine/core'
 import { forwardRef, ReactNode, Ref } from 'react'
 
 import classesNames from '../../styles/typography.module.css'
-import type { TextVariants } from './types'
+import { TextVariants } from './types'
 
 // ----------------------------------------------------------------------
 

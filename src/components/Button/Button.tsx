@@ -1,5 +1,5 @@
 import { createPolymorphicComponent, Button as MantineButton } from '@mantine/core'
-import type { ButtonProps as BaseButtonProps } from '@mantine/core'
+import { ButtonProps as BaseButtonProps } from '@mantine/core'
 import '@mantine/core/styles/UnstyledButton.css'
 import '@mantine/core/styles/Button.css'
 import classNames from './Button.module.css'
