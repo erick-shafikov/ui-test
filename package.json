@@ -4,10 +4,9 @@
   "private": false,
   "version": "0.0.0-development",
   "type": "module",
-  "main": "src/main.ts",
+  "main": "src/main.js",
   "files": [
-    "src",
-    "README.md"
+    "src"
   ],
   "exports": "./dist/main.js",
   "module": "./dist/main.js",
