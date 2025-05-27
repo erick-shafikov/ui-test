@@ -2,7 +2,7 @@
   border-radius: var(--mantine-radius-xl);
   border: 1px solid var(--mantine-color-border-action-normal-0);
   box-shadow: var(--mantine-shadows-xs);
-  color: var(--mantine-color-text-base-tertiary-0);
+  color: var(--mantine-color-text-base-primary);
 
   --input-height: 2.5rem;
 

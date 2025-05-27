@@ -1,0 +1,4 @@
+.label {
+  --label-offset-start: 0.5rem;
+  margin-top: -0.125rem;
+}

@@ -1,7 +1,7 @@
 import { IMaskInput } from 'react-imask'
-import { Input } from '@/components/Inputs'
+import { Input } from '../Input'
 import { forwardRef } from 'react'
-import type { MaskedInputProps } from '@/components/Inputs/types'
+import type { MaskedInputProps } from '../types'
 
 // ----------------------------------------------------------------------
 

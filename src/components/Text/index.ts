@@ -1,1 +1,1 @@
-export { Text } from '@/components/Text/Text'
+export { Text } from './Text'

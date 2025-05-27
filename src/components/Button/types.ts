@@ -1,4 +1,4 @@
-import { ButtonVariants } from '@/components/Button/constants'
+import { ButtonVariants } from './constants'
 import { ButtonVariant } from '@mantine/core'
 
 // ----------------------------------------------------------------------

@@ -1,1 +1,1 @@
-export { CardInput } from '@/components/Inputs/CardInput/CardInput'
+export { CardInput } from './CardInput'

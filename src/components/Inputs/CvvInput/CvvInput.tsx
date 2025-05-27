@@ -1,10 +1,10 @@
-import { MaskedInput } from '@/components/Inputs/MaskedInput'
-import passwordClassNames from '@/components/Inputs/CvvInput/CvvInput.module.css'
-import baseInputClassNames from '@/components/Inputs/Input.module.css'
+import { MaskedInput } from '../MaskedInput'
+import passwordClassNames from './CvvInput.module.css'
+import baseInputClassNames from '../Input.module.css'
 import clsx from 'clsx'
-import type { MaskedInputProps } from '@/components/Inputs/types'
+import type { MaskedInputProps } from '../types'
 import { forwardRef } from 'react'
-import { CARD_CVV_MASK } from '@/constants/masks'
+import { CARD_CVV_MASK } from '../../../constants/masks'
 import { IMask } from 'react-imask'
 
 // ----------------------------------------------------------------------

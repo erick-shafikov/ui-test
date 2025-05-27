@@ -1,21 +1,18 @@
-// service components
-
-export { MantineProvider } from '@/components/MainProvider'
-
 // constants
-export { theme } from '@/components/theme'
+export { theme } from './components/theme'
 
 // components
-export { Button } from '@/components/Button'
+export { Button } from './components/Button'
 
 //inputs
-export { Input } from '@/components/Inputs'
-export { CardInput } from '@/components/Inputs/CardInput'
-export { MaskedInput } from '@/components/Inputs/MaskedInput'
-export { PasswordInput } from '@/components/Inputs/PasswordInput'
-export { CvvInput } from '@/components/Inputs/CvvInput'
+export { Input } from './components/Inputs'
+export { CardInput } from './components/Inputs/CardInput'
+export { MaskedInput } from './components/Inputs/MaskedInput'
+export { PasswordInput } from './components/Inputs/PasswordInput'
+export { CvvInput } from './components/Inputs/CvvInput'
+export { Checkbox } from './components/Inputs/Checkbox'
 
-export { Loader } from '@/components/Loader'
-export { Modal } from '@/components/Modal'
-export { Switch } from '@/components/Switch'
-export { Text } from '@/components/Text'
+export { Loader } from './components/Loader'
+export { Modal } from './components/Modal'
+export { Switch } from './components/Switch'
+export { Text } from './components/Text'

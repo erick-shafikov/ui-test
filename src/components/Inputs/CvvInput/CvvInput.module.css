@@ -7,6 +7,6 @@
 }
 
 .input {
-  font-family: Password, monospace;
+  font-family: Password, monospace !important;
   font-display: swap;
 }

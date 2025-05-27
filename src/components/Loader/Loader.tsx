@@ -1,5 +1,5 @@
-import { LoaderSizes } from '@/components/Loader/constants'
-import classnames from '@/components/Loader/Loader.module.css'
+import { LoaderSizes } from './constants'
+import classnames from './Loader.module.css'
 
 // ----------------------------------------------------------------------
 

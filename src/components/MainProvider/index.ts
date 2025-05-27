@@ -1,1 +1,1 @@
-export { MantineProvider } from '@/components/MainProvider/MantineProvider'
+export { MantineProvider } from './MantineProvider'

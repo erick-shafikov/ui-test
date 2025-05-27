@@ -1,9 +1,9 @@
-import CardSVG from '@/assets/card.svg'
-import { MaskedInput } from '@/components/Inputs/MaskedInput'
-import { useCardLogo } from '@/components/Inputs/CardInput/useCardLogo'
-import type { MaskedInputProps } from '@/components/Inputs/types'
+import CardSVG from '../../../assets/card.svg'
+import { MaskedInput } from '../MaskedInput'
+import { useCardLogo } from './useCardLogo'
+import type { MaskedInputProps } from '../types'
 import { forwardRef } from 'react'
-import { CARD_NUMBER_MASK } from '@/constants/masks'
+import { CARD_NUMBER_MASK } from '../../../constants/masks'
 import { IMask } from 'react-imask'
 
 // ----------------------------------------------------------------------

@@ -1,1 +1,1 @@
-export { MaskedInput } from '@/components/Inputs/MaskedInput/MaskedInput'
+export { MaskedInput } from './MaskedInput'

@@ -1,1 +1,1 @@
-export { Modal } from '@/components/Modal/Modal'
+export { Modal } from './Modal'
