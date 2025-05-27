@@ -1,3 +1,4 @@
+import '@mantine/core/styles/Input.layer.css'
 import { TextInput } from '@mantine/core'
 import classNames from './Input.module.css'
 import textClassNames from '../../styles/typography.module.css'

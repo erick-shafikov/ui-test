@@ -1,9 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { MantineProvider } from '@/components/MainProvider'
+import { KvellUiProvider } from '@/components/KvellUiProvider'
 import { Text } from '@/components/Text'
 
-import '@mantine/core/styles.css'
 import { theme } from '@/components/theme'
 import { Modal } from '@/components/Modal'
 import { Button } from '@/components/Button'
@@ -66,9 +65,9 @@ const meta = {
   title: 'Components/Modal',
   component: ModalWrapper,
   decorators: (Story) => (
-    <MantineProvider theme={theme}>
+    <KvellUiProvider theme={theme}>
       <Story />
-    </MantineProvider>
+    </KvellUiProvider>
   ),
 } satisfies Meta<typeof ModalWrapper>
 

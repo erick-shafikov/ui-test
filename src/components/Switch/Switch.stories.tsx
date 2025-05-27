@@ -1,8 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { MantineProvider } from '@/components/MainProvider'
+import { KvellUiProvider } from '@/components/KvellUiProvider'
 
-import '@mantine/core/styles.css'
 import { theme } from '@/components/theme'
 import { Switch } from '@/components/Switch'
 
@@ -12,9 +11,9 @@ const meta = {
   title: 'Components/Switch',
   component: Switch,
   decorators: (Story) => (
-    <MantineProvider theme={theme}>
+    <KvellUiProvider theme={theme}>
       <Story />
-    </MantineProvider>
+    </KvellUiProvider>
   ),
 } satisfies Meta<typeof Switch>
 

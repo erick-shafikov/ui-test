@@ -1,8 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { MantineProvider } from '@/components/MainProvider'
+import { KvellUiProvider } from '@/components/KvellUiProvider'
 
-import '@mantine/core/styles.css'
 import { theme } from '@/components/theme'
 import { PasswordInput as PasswordInputComponent } from '@/components/Inputs/PasswordInput/PasswordInput'
 
@@ -12,11 +11,11 @@ const meta = {
   title: 'Components/Inputs/PasswordInput',
   component: PasswordInputComponent,
   decorators: (Story) => (
-    <MantineProvider theme={theme}>
+    <KvellUiProvider theme={theme}>
       <div style={{ maxWidth: '465px' }}>
         <Story />
       </div>
-    </MantineProvider>
+    </KvellUiProvider>
   ),
 } satisfies Meta<typeof PasswordInputComponent>
 

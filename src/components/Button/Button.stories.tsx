@@ -1,10 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { MantineProvider } from '@/components/MainProvider'
-import LeadSVG from '@/assets/lead-icon.svg'
-import ArrowLeftSVG from '@/assets/arrow-left.svg'
+import { KvellUiProvider } from '@/components/KvellUiProvider'
 
-import '@mantine/core/styles.css'
+import { RiArrowLeftLine as ArrowLeftSVG, RiLockLine as LockSVG } from '@remixicon/react'
+
 import { theme } from '@/components/theme'
 import { Button } from '@/components/Button'
 import { Text } from '@/components/Text/Text'
@@ -25,9 +24,9 @@ const meta = {
   argTypes: { variant: ButtonVariants },
   component: Button,
   decorators: (Story) => (
-    <MantineProvider theme={theme}>
+    <KvellUiProvider theme={theme}>
       <Story />
-    </MantineProvider>
+    </KvellUiProvider>
   ),
 } satisfies Meta<typeof Button>
 
@@ -61,7 +60,7 @@ export const ComponentButton: Story = {
 export const PrimaryButton: Story = {
   args: {
     variant: PRIMARY_BUTTON_VARIANT,
-    leftSection: <LeadSVG />,
+    leftSection: <LockSVG size={20} />,
     fullWidth: true,
     style: { maxWidth: '465px' },
     children: <Text variant={BODY_S_MEDIUM_FONT_VARIANT}>Оплатить 7 605,30 RUB</Text>,
@@ -72,7 +71,7 @@ export const PrimaryButton: Story = {
 export const SecondaryButton: Story = {
   args: {
     variant: SECONDARY_BUTTON_VARIANT,
-    leftSection: <ArrowLeftSVG />,
+    leftSection: <ArrowLeftSVG size={20} />,
     children: 'Вернуться на сайт продавца',
   },
 }
@@ -80,7 +79,7 @@ export const SecondaryButton: Story = {
 export const TertiaryButton: Story = {
   args: {
     variant: TERTIARY_BUTTON_VARIANT,
-    leftSection: <ArrowLeftSVG />,
+    leftSection: <ArrowLeftSVG size={20} />,
     children: 'Сохранённые карты',
   },
 }

@@ -20,6 +20,8 @@ const mask = IMask.createMask({ mask: CARD_CVV_MASK })
 export const CvvInput = forwardRef<HTMLInputElement, MaskedInputProps>((props, ref) => (
   <MaskedInput
     ref={ref}
+    inputMode='numeric'
+    autoComplete='cc-csc'
     {...props}
     mask={mask}
     classNames={{ ...restClassNames, input: classNames }}

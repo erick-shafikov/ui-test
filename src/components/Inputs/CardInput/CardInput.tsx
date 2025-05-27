@@ -1,10 +1,10 @@
-import CardSVG from '../../../assets/card.svg'
 import { MaskedInput } from '../MaskedInput'
 import { useCardLogo } from './useCardLogo'
 import type { MaskedInputProps } from '../types'
 import { forwardRef } from 'react'
 import { CARD_NUMBER_MASK } from '../../../constants/masks'
 import { IMask } from 'react-imask'
+import { RiBankCardLine as CardSVG } from '@remixicon/react'
 
 // ----------------------------------------------------------------------
 
@@ -18,10 +18,12 @@ export const CardInput = forwardRef<HTMLInputElement, MaskedInputProps>((props, 
   return (
     <MaskedInput
       ref={ref}
+      inputMode='numeric'
+      autoComplete='cc-number'
       {...props}
       mask={mask}
       rightSection={CardLogo && <CardLogo />}
-      leftSection={<CardSVG />}
+      leftSection={<CardSVG size={20} />}
       placeholder='____ ____ ____ ____'
     />
   )

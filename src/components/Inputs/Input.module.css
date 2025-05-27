@@ -1,8 +1,8 @@
 .input {
   border-radius: var(--mantine-radius-xl);
   border: 1px solid var(--mantine-color-border-action-normal-0);
-  box-shadow: var(--mantine-shadows-xs);
-  color: var(--mantine-color-text-base-primary);
+  box-shadow: var(--mantine-shadow-xs);
+  color: var(--mantine-color-text-base-primary-0);
 
   --input-height: 2.5rem;
 

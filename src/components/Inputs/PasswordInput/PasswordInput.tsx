@@ -23,4 +23,5 @@ export const PasswordInput = PasswordInputBase.withProps({
     error: errorClassNames,
     section: sectionClassNames.section,
   },
+  autoComplete: 'current-password',
 })

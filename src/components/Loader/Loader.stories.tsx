@@ -1,8 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { MantineProvider } from '@/components/MainProvider'
+import { KvellUiProvider } from '@/components/KvellUiProvider'
 
-import '@mantine/core/styles.css'
 import { theme } from '@/components/theme'
 import { Loader } from '@/components/Loader'
 import { LoaderSizes } from '@/components/Loader/constants'
@@ -13,11 +12,11 @@ const meta = {
   title: 'Components/Loader',
   component: Loader,
   decorators: (Story) => (
-    <MantineProvider theme={theme}>
+    <KvellUiProvider theme={theme}>
       <div style={{ width: '120px', height: '120px', backgroundColor: 'whitesmoke' }}>
         <Story />
       </div>
-    </MantineProvider>
+    </KvellUiProvider>
   ),
 } satisfies Meta<typeof Loader>
 
