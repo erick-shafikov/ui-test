@@ -4,7 +4,7 @@
     "module": "ESNext",
     "jsx": "react-jsx",
     "strict": true,
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
