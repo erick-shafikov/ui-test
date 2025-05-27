@@ -18,14 +18,16 @@
     "format:fix": "prettier --write .",
     "build-storybook": "storybook build"
   },
-  "peerDependencies": {
+  "dependencies": {
     "@mantine/core": "^7.17.3",
     "@mantine/hooks": "^7.17.3"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-imask": "^7.6.1",
+    "react-imask": "^7.6.1"
+  },
+  "devDependencies": {
     "@chromatic-com/storybook": "^3.2.6",
     "@eslint/js": "^9.21.0",
     "@newhighsco/storybook-addon-svgr": "^2.0.59",

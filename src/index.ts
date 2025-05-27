@@ -1,5 +1,5 @@
 // service components
-export { ColorSchemeScript, mantineHtmlProps } from '@mantine/core'
+
 export { MantineProvider } from '@/components/MainProvider'
 
 // constants
@@ -19,3 +19,7 @@ export { Loader } from '@/components/Loader'
 export { Modal } from '@/components/Modal'
 export { Switch } from '@/components/Switch'
 export { Text } from '@/components/Text'
+
+//
+export * from '@mantine/core'
+export * from '@mantine/hooks'
