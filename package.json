@@ -10,8 +10,8 @@
     "src"
   ],
   "exports": {
-    ".": "./src/index.ts",
-    "./mantine": "./src/mantine.ts"
+    ".": "./src/index.js",
+    "./mantine": "./src/mantine.js"
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
