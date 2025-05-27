@@ -19,7 +19,3 @@ export { Loader } from '@/components/Loader'
 export { Modal } from '@/components/Modal'
 export { Switch } from '@/components/Switch'
 export { Text } from '@/components/Text'
-
-//
-export * from '@mantine/core'
-export * from '@mantine/hooks'

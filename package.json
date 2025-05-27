@@ -9,6 +9,10 @@
   "files": [
     "src"
   ],
+  "exports": {
+    ".": "./src/index.js",
+    "./mantine": "./src/mantine.js"
+  },
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "semantic-release": "semantic-release",
