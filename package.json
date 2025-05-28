@@ -8,7 +8,7 @@
   "types": "src/index.ts",
   "files": [
     "src",
-    "src/core-components"
+    "mantine"
   ],
   "exports": {
     ".": {
@@ -16,8 +16,8 @@
       "types": "./src/index.ts"
     },
     "./mantine": {
-      "import": "./src/core-components/index.ts",
-      "types": "./src/core-components/index.ts"
+      "import": "./mantine/index.ts",
+      "types": "./mantine/index.ts"
     }
   },
   "scripts": {
