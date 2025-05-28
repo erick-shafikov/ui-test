@@ -5,6 +5,8 @@ import { MantineProvider } from '@/components/MainProvider'
 import '@mantine/core/styles.css'
 import { theme } from '@/components/theme'
 import { Checkbox as CheckboxComponent } from '@/components/Inputs/Checkbox'
+import { Text } from '@/components/Text'
+import { Anchor } from '@mantine/core'
 
 // ----------------------------------------------------------------------
 
@@ -26,7 +28,20 @@ type Story = StoryObj<typeof CheckboxComponent>
 
 export const Checkbox: Story = {
   args: {
-    label: 'Соглашаюсь с условиями КИД (Ключевого информационного документа)',
+    label: (
+      <Text variant='caption-l-medium'>
+        Соглашаюсь с условиями{' '}
+        <Anchor
+          href='#'
+          target='_blank'
+          rel='noreferrer'
+          c='text-accent-blue-accent.0'
+          inherit
+        >
+          КИД (Ключевого информационного документа)
+        </Anchor>
+      </Text>
+    ),
   },
 }
 

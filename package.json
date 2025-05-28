@@ -1,17 +1,24 @@
 {
-  "name": "@erik-test/ui-test",
-  "author": "erik-test",
+  "name": "@kvell-group/ui",
+  "author": "Kvell Group",
   "private": false,
   "version": "0.0.0-development",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
   "files": [
-    "src"
+    "src",
+    "src/core-components"
   ],
   "exports": {
-    ".": "./src/index.js",
-    "./mantine": "./src/mantine.js"
+    ".": {
+      "import": "./src/index.ts",
+      "types": "./src/index.ts"
+    },
+    "./mantine": {
+      "import": "./src/core-components/index.ts",
+      "types": "./src/core-components/index.ts"
+    }
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
@@ -50,6 +57,7 @@
     "@vitest/browser": "^3.1.1",
     "@vitest/coverage-v8": "^3.1.1",
     "autoprefixer": "^10.4.21",
+    "clsx": "^2.1.1",
     "eslint": "^9.21.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-react-hooks": "^5.1.0",
@@ -73,8 +81,7 @@
     "vite-plugin-lib-inject-css": "^2.2.1",
     "vite-plugin-svgr": "^4.3.0",
     "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^3.1.1",
-    "clsx": "^2.1.1"
+    "vitest": "^3.1.1"
   },
   "publishConfig": {
     "access": "public"

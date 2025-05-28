@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "allowJs": true,
     "module": "ESNext",
     "jsx": "react-jsx",
+    "allowJs": true,
     "strict": true,
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,

@@ -1,4 +1,30 @@
+.root {
+  --checkbox-size-sm: rem(16px);
+  --checkbox-size-md: rem(20px);
+  --checkbox-radius: var(--mantine-radius-xs);
+}
+
 .label {
-  --label-offset-start: 0.5rem;
-  margin-top: -0.125rem;
+  --label-offset-start: rem(8px);
+}
+
+:where([data-mantine-color-scheme='light']) .root:hover .input:not(:checked):not(:disabled) {
+  border-color: var(--mantine-color-border-action-hover-0);
+}
+
+.inner {
+  margin-top: rem(2px);
+}
+
+.input {
+  box-shadow: var(--mantine-shadow-xs);
+}
+
+:where([data-mantine-color-scheme='light']) .input:disabled {
+  background-color: var(--mantine-color-background-checkbox-disabled-0);
+  border-color: var(--mantine-color-background-checkbox-disabled-0);
+}
+
+[data-mantine-color-scheme='light'] .input:disabled + .icon {
+  color: var(--mantine-color-border-base-surface-0);
 }
