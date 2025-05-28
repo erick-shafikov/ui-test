@@ -1,6 +1,6 @@
 {
-  "name": "@kvell-group/ui",
-  "author": "Kvell Group",
+  "name": "@erik-test/ui-test",
+  "author": "erik-test",
   "private": false,
   "version": "0.0.0-development",
   "type": "module",
